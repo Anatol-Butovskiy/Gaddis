@@ -43,5 +43,35 @@ class Patient:
     def set_em_phone(self, em_phone):
         self.__em_phone = em_phone
 
+    def get_first(self):
+        return self.__first
+
+    def get_middle(self):
+        return self.__middle
+
+    def get_last(self):
+        return self.__last
+
+    def get_address(self):
+        return self.__address
+
+    def get_city(self):
+        return self.__city
+
+    def get_state(self):
+        return self.__state
+
+    def get_zip_code(self):
+        return self.__zip_code
+
+    def get_phone(self):
+        return self.__phone
+
+    def get_em_contact(self):
+        return self.__em_contact
+
+    def get_em_phone(self):
+        return self.__em_phone
+
 
 
