@@ -22,5 +22,11 @@ class Patient:
     def set_last(self, last):
         self.__last = last
 
+    def set_address(self, address):
+        self.__address = address
+
+    def set_city(self, city):
+        self.__city = city
+
 
 
