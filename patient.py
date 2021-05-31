@@ -28,5 +28,20 @@ class Patient:
     def set_city(self, city):
         self.__city = city
 
+    def set_state(self, state):
+        self.__state = state
+
+    def set_zip_code(self, zip_code):
+        self.__zip_code = zip_code
+
+    def set_phone(self, phone):
+        self.__phone = phone
+
+    def set_em_contact(self, em_contact):
+        self.__em_contact = em_contact
+
+    def set_em_phone(self, em_phone):
+        self.__em_phone = em_phone
+
 
 
