@@ -73,5 +73,13 @@ class Patient:
     def get_em_phone(self):
         return self.__em_phone
 
-
-
+    def __str__(self):
+        return 'Имя: ' + self.__first + \
+            '\nОтчество: ' + self.__middle + \
+            '\nФамилия: ' + self.__last + \
+            '\nНаселенный пункт: ' + self.__city + \
+            '\nОбласть: ' + self.__state + \
+            '\nПочтовый индекс: ' + self.__zip_code + \
+            '\nНомер телефона: ' + self.__phone + \
+            '\nИмя контактного лица: ' + self.__em_contact + \
+            '\nНомер телефона контактного лица: ' + self.__em_phone
