@@ -77,6 +77,7 @@ class Patient:
         return 'Имя: ' + self.__first + \
             '\nОтчество: ' + self.__middle + \
             '\nФамилия: ' + self.__last + \
+            '\nАдрес: ' + self.__address + \
             '\nНаселенный пункт: ' + self.__city + \
             '\nОбласть: ' + self.__state + \
             '\nПочтовый индекс: ' + self.__zip_code + \
